@@ -2,6 +2,7 @@
 
 基於字型 デラゴシック (Dela Gothic One) ，修改而成的臺灣繁體中文補充版本。
 - デラゴシック 字體連結：https://github.com/syakuzen/DelaGothic/
+  
 ![Image](Img/img-1.jpg)
 
 ## 簡介
@@ -13,9 +14,12 @@
 - 點擊連結進入後，網頁右上角有「三個點點」按鈕，選擇「Download」選項，即可下載檔案。
 
 ## 說明
-本專案字型使用 FontCreator 14 軟體進行修改，首次發佈專案先根據字體表[常用國字標準字體表（4808 字）](https://home.gamer.com.tw/creationDetail.php?sn=5079333)，將缺少的字元根據字型現有的漢字進行拆解並且修改（新增共 508 字）。其中，全型標點符號的部分，也針對臺灣使用習慣，調整符號的位置與寬度。
-![Image](Img/img-2.jpg)
-![Image](Img/img-3.jpg)
+本專案字型使用 FontCreator 14 軟體進行修改，首次發佈專案先根據字體表[常用國字標準字體表（4808 字）](https://home.gamer.com.tw/creationDetail.php?sn=5079333)，將缺少的字元根據字型現有的漢字進行拆解並且修改（新增共 508 字）。其中，全型標點符號的部分，也針對臺灣使用習慣，調整符號的位置與寬度。  
+  
+![Image](Img/img-2.jpg)  
+  
+![Image](Img/img-3.jpg)  
+  
 由於是首次進行補字工作，修補的品質或許無法完美，故歡迎大家提出意見，我將竭誠改進！感謝大家～ (ㅅ´ ˘ `)♡
 
 
