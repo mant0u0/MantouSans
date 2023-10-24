@@ -36,3 +36,7 @@
 - デラゴシック：https://github.com/syakuzen/DelaGothic/
 - jf 7000 當務字集：https://justfont.com/jf7000
 
+
+## 抖內支持  
+由於目前只有一個人在進行補字作業，如果覺得這個字型有幫助到你的話，很想使用抖內的方式支持我，可以透過以下連結，用購買 LINE 貼圖的方式代替抖內喔！感謝大家～ (っ´▽`)っ  
+- 饅頭小小貼圖：https://store.line.me/emojishop/product/62777d4502450a0831384a1a/zh-Hant
