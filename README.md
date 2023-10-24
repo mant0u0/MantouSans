@@ -32,4 +32,7 @@
 - 根據 [SIL OFL](https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL) 的規定，嚴禁單獨銷售字型檔案（如 ttf/otf 格式）。
 
 
+## 參考資料  
+- デラゴシック：https://github.com/syakuzen/DelaGothic/
+- jf 7000 當務字集：https://justfont.com/jf7000
 
