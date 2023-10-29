@@ -1,0 +1,111 @@
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Unicode 轉換工具</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="ggpr">
+            <span>
+                Unicode 轉換工具
+            </span>
+
+        </div>
+        <form name="characterCode">
+            <textarea id="characterTa" name="characterTa" class="textarea" placeholder="字元"></textarea>
+            <div class="button-box">
+                <input type="button" class="button" onclick="native2ascii();" value="字元轉 Unicode ↓">
+                <input type="button" class="button" onclick="ascii2native();" value="Unicode 轉字符 ↑">
+            </div>
+
+            <textarea id="asciiTa" name="asciiTa" class="textarea" placeholder="Unicode"></textarea>
+
+            <label>
+                <input class="checkbox" type="checkbox" name="ignoreLetter" id="ignoreLetter" checked="true">
+                不轉換字母或數字
+            </label>
+        </form>
+
+    </div>
+    <script>
+        function native2ascii() {
+            var character = document.getElementById("characterTa").value.split("");
+            var ascii = "";
+            for (var i = 0; i < character.length; i++) {
+                var code = Number(character[i].charCodeAt(0));
+                if (!document.getElementById("ignoreLetter").checked || code > 127) {
+                    var charAscii = code.toString(16);
+                    charAscii = new String("0000").substring(charAscii.length, 4) + charAscii;
+                    ascii += "$" + charAscii;
+                    if (i !== character.length - 1) {
+                        ascii += ",";
+                    }
+                } else {
+                    ascii += character[i];
+                }
+            }
+            document.getElementById("asciiTa").value = ascii;
+        }
+
+        function ascii2native() {
+            var asciiValue = document.getElementById("asciiTa").value;
+            var character = asciiValue.split(",");
+            var native = "";
+
+            for (var i = 0; i < character.length; i++) {
+                var code = character[i];
+
+                if (code.startsWith("$")) {
+                    native += String.fromCharCode(parseInt("0x" + code.substring(1, 5)));
+                    if (code.length > 5) {
+                        native += code.substring(5, code.length);
+                    }
+                } else {
+                    native += code;
+                }
+            }
+
+            document.getElementById("characterTa").value = native;
+        }
+
+
+
+    </script>
+</body>
+
+<style>
+    * {
+        font-size: 40px !important;
+        font-family: "微軟正黑體" !important;
+        font-weight: 900;
+    }
+
+    .textarea {
+        width: 100%;
+        height: 200px;
+        overflow: auto;
+    }
+
+    .button {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .button-box {
+        gap: 4px;
+        margin: 4px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .checkbox {
+        width: 32px;
+        height: 32px;
+    }
+</style>
+
+</html>
