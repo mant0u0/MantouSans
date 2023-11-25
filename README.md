@@ -12,8 +12,6 @@
 
 雖然這個字型已支援至「漢字 jis 第三水準」，但對繁體中文使用者來說，仍可能會遇到「缺字」的問題。由於我也是這套字型的愛用者，因此決定自己補齊常用的缺失字元。
 
-如果是使用簡體中文的使用者，可以嘗試使用「[标小智无界黑](https://github.com/maoken-fonts/unbounded-sans)」的版本，這個版本已經將許多簡體中文的缺字補齊了，如果有需要的使用者也可以嘗試看看。
-
 ## 下載與安裝
 
 [下載字體檔 (.ttf)](https://github.com/mant0u0/MantouSans/raw/main/Font/MantouSans-Regular.ttf)
@@ -30,7 +28,12 @@
 
 ![Image](Img/img-3.jpg)
 
-由於這是首次進行補字工作，修補的品質可能沒有到非常完美，歡迎大家提出意見，我將會盡全力改進！感謝大家～ (ㅅ´ ˘ `)♡
+由於這是首次進行補字工作，修補的品質可能沒有到非常完美，歡迎大家提出意見，我將會盡全力改進！如果想要查看更新進度，可以參考以下連結，感謝大家～ (ㅅ´ ˘ `)♡  
+
+[更新進度](https://github.com/mant0u0/MantouSans/blob/main/UpdateLog.md)  
+
+
+（2023/11/25 更新）如果是使用簡體中文的使用者，可以嘗試使用「[标小智无界黑](https://github.com/maoken-fonts/unbounded-sans)」的版本，這個版本已經將許多簡體中文的缺字補齊了，有需要的使用者也可以嘗試看看。於 1.007 版，先使用「标小智无界黑」的注音符號補入饅頭黑體當中，避免中文注音輸入時缺字。
 
 ## 開源授權規定
 
@@ -46,7 +49,17 @@
 - デラゴシック：https://github.com/syakuzen/DelaGothic/
 - jf 7000 當務字集：https://justfont.com/jf7000
 - 常用國字標準字體表（4808 字）：https://home.gamer.com.tw/creationDetail.php?sn=5079333
-- 标小智无界黑：https://github.com/maoken-fonts/unbounded-sans
+- 标小智无界黑：https://github.com/maoken-fonts/unbounded-sans  
+
+## 特別感謝   
+
+感謝大家一路以來的技術指導和意見，也感謝大家的分享與推廣，讓我能夠順利補字至今。m( _   _ )m
+
+- 曾國榕 設計師
+- 古颂乐 設計師
+- 郭政佑 設計師
+- 美勞哥 設計師
+- 字嗨 Facebook 社團的各位
 
 ## 抖內支持
 
