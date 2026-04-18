@@ -1,5 +1,9 @@
 # 更新紀錄
 
+## 2026/04/19 v1.012
+
+- 補上 platformID=1（platEncID=0, langID=0）的 nameID 1、2、4、6，內容使用英文值（Mantou Sans、Regular、Mantou Sans、MantouSans）-> 由 Mabylife 所提出的 Issues
+
 ## 2026/01/11 v1.011
 
 - 新增 120 個字元，繁中常用字。
